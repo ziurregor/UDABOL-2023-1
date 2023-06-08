@@ -1,0 +1,230 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/backend/backend.csproj": {}
+  },
+  "projects": {
+    "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/ADO/ADO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/ADO/ADO.csproj",
+        "projectName": "ADO",
+        "projectPath": "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/ADO/ADO.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/ADO/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rogerruizescobar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/Modelo/Modelo.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/Modelo/Modelo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/backend/backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/backend/backend.csproj",
+        "projectName": "backend",
+        "projectPath": "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/backend/backend.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/backend/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rogerruizescobar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/ADO/ADO.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/ADO/ADO.csproj"
+              },
+              "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/Modelo/Modelo.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/Modelo/Modelo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.11.1, )"
+            },
+            "SwashBuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/Modelo/Modelo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/Modelo/Modelo.csproj",
+        "projectName": "Modelo",
+        "projectPath": "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/Modelo/Modelo.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/Modelo/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rogerruizescobar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

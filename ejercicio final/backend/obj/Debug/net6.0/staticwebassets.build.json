@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "4F9ezhB3R83f0cdbQOlcAnPYKy1UTIxAGOENvSVBdGw=",
+  "Source": "backend",
+  "BasePath": "_content/backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/rogerruizescobar/Documents/Docencia/Docencia 2023-1/proyecto/UDABOL-2023-1/ejercicio final/Modelo/Modelo.csproj",
+      "Version": 2,
+      "Source": "Modelo",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
