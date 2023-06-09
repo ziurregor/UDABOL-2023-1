@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Alumnos UDABOL 2023.";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre Registrado con el primer examen</th>
+            <th>Nombre de Registro</th>
+            <th>Correo Personal</th>
+            <th>Correo UDABOL</th>
+            <th>Datos de Parcials</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var alumno in Model.Alumnos)
+        {
+            <tr>
+                <td>@alumno.PrimerRegistro</td>
+                <td>@alumno.Nombre</td>
+                <td>@alumno.CorreoPersonal</td>
+                <td>@alumno.CorreoUdabol</td>
+                <td style="color: @(alumno.Verificacion =="Tiene Datos"? "green" : "red")">@alumno.Verificacion</td>
+
+                @*<td>@alumno.Codigo</td>
+        <td>@(alumno.IsActive ? "Activo" : "Inactivo")</td>
+        <td>@(alumno.IsActive ? "Activo" : "Inactivo")</td>*@
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+

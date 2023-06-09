@@ -1,28 +1,30 @@
 ﻿<Properties StartupConfiguration="{8B9E8982-4DD4-4301-837E-CFB48A0A63B5}|Default">
-  <MultiItemStartupConfigurations>
-    <MultiItemSolutionRunConfiguration Id="Varios proyectos" Name="Varios proyectos">
-      <Items>
-        <StartupItem ItemId="{8B9E8982-4DD4-4301-837E-CFB48A0A63B5}" ItemName="backend" ConfigurationId="Default" />
-        <StartupItem ItemId="{EBBCC860-DD08-41E9-A2E8-83A5FB7ACD75}" ItemName="frontend" ConfigurationId="Default" />
-      </Items>
-    </MultiItemSolutionRunConfiguration>
-  </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.ItemProperties.backend PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../frontend/AlumnoClient.cs">
+  <MonoDevelop.Ide.ItemProperties.frontend PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../frontend/Pages/NotasAlumno.cshtml">
     <Files>
       <File FileName="../frontend/Properties/launchSettings.json" />
+      <File FileName="../frontend/Startup.cs" />
       <File FileName="Program.cs" />
-      <File FileName="../frontend/Alumno.cs" />
-      <File FileName="../frontend/AlumnoClient.cs" Line="46" Column="1" />
-      <File FileName="../frontend/Pages/IndexA.cshtml.cs" />
-      <File FileName="../frontend/Pages/IndexA.cshtml" />
+      <File FileName="../frontend/Alumno.cs" Line="11" Column="9" />
+      <File FileName="../frontend/AlumnoClient.cs" Line="45" Column="1" />
+      <File FileName="../frontend/Pages/IndexA.cshtml.cs" Line="1" Column="1" />
+      <File FileName="../frontend/Pages/IndexA.cshtml" Line="25" Column="72" />
       <File FileName="../frontend/Pages/Shared/_Layout.cshtml" Line="14" Column="80" />
+      <File FileName="../Modelo/Alumno.cs" Line="16" Column="48" />
+      <File FileName="../frontend/Pages/Index.cshtml" Line="42" Column="44" />
+      <File FileName="../frontend/Pages/Index.cshtml.cs" Line="25" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="backend" expanded="True">
-            <Node name="frontend" expanded="True" />
+            <Node name="backend" expanded="True" />
+            <Node name="frontend" expanded="True" selected="True">
+              <Node name="Pages" expanded="True">
+                <Node name="IndexA.cshtml" expanded="True" />
+                <Node name="NotasAlumno.cshtml" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -31,10 +33,18 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.frontend PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.backend PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Varios proyectos" Name="Varios proyectos">
+      <Items>
+        <StartupItem ItemId="{8B9E8982-4DD4-4301-837E-CFB48A0A63B5}" ItemName="backend" ConfigurationId="Default" />
+        <StartupItem ItemId="{EBBCC860-DD08-41E9-A2E8-83A5FB7ACD75}" ItemName="frontend" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
 </Properties>

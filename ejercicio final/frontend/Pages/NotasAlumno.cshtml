@@ -1,0 +1,94 @@
+﻿@page "/NotasAlumno/{codigo}"
+@model NotasAlumnoModel
+@{
+    Layout = null;
+}
+
+<style>
+    .notas-container {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 20px;
+        width: 300px;
+        display: inline-block;
+    }
+
+        .notas-container h4 {
+            margin-top: 0;
+            color: white;
+            background-color: blue;
+            font-weight: bold;
+            padding: 5px;
+        }
+
+    .notas-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+        .notas-table th,
+        .notas-table td {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: left;
+        }
+</style>
+
+<h3>Libreta de Notas del Alumno</h3>
+
+@if (Model.Alumno != null)
+{
+    <div class="notas-container" with="100%">
+        <h4>Datos del Alumno:</h4>
+        <p>Nombre: @Model.Alumno.Nombre</p>
+        <p>Primer Registro: @Model.Alumno.PrimerRegistro</p>
+        <p>Correo Personal: @Model.Alumno.CorreoPersonal</p>
+        <p>Correo UDABOL: @Model.Alumno.CorreoUdabol</p>
+        <p>Código: @Model.Alumno.Codigo</p>
+        <p>Verificación: @Model.Alumno.Verificacion</p>
+        <p>Estado: @(Model.Alumno.IsActive ? "Activo" : "Inactivo")</p>
+    </div>
+
+    <div class="notas-container">
+        <h4>Notas:</h4>
+        <table class="notas-table">
+            <thead>
+                <tr>
+                    <th>Asignatura</th>
+                    <th>Nota</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Examen GIT (6 PTS)</td>
+                    <td>@Model.Alumno.Ex_GIT_6PTS</td>
+                </tr>
+                <tr>
+                    <td>Examen ADOO (8 PTS)</td>
+                    <td>@Model.Alumno.Ex_ADOO_8PTS</td>
+                </tr>
+                <tr>
+                    <td>Examen Scrum &amp; Trabajo en Equipo (41 PTS)</td>
+                    <td>@Model.Alumno.Ex_ScrumTra_41PTS</td>
+                </tr>
+                <tr>
+                    <td>Examen SOLID (8 PTS)</td>
+                    <td>@Model.Alumno.Ex_SOLID_8PTS</td>
+                </tr>
+                <tr>
+                    <td>Examen 12 Factor App (12 PTS)</td>
+                    <td>@Model.Alumno.Ex_12FactApp_12PTS</td>
+                </tr>
+                <tr>
+                    <td>Examen Docker (5 PTS)</td>
+                    <td>@Model.Alumno.Ex_Docker_5PTS</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <p>No se encontró ningún alumno con el código especificado.</p>
+}

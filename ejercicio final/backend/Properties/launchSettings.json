@@ -21,7 +21,7 @@
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "pizzainfo",
-      "applicationUrl": "https://localhost:5901;http://localhost:5900",
+      "applicationUrl": "https://192.168.0.141:5901;http://192.168.0.141:5900;https://localhost:5901;http://localhost:5900",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
